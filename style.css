@@ -17,10 +17,13 @@ body {
   h1, h2 {
     margin-bottom: 5px;
   }
-  
+
+  p {
+    font-size: 14px;
+  }
+
   .centered-text {
     text-align: center;
-    color: #0d0d0d;
     margin: 20px 40px;
   }
   
