@@ -18,6 +18,10 @@ body {
     margin-bottom: 5px;
   }
 
+  p {
+    font-size: 1.6em;
+  }
+
   .centered-text {
     text-align: center;
     margin: 20px 40px;
