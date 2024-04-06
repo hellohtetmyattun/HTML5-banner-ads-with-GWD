@@ -28,17 +28,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* Center iframes horizontally */
-    margin: 0 auto; /* Center container horizontally */
+    gap: 20px; 
+    margin: 0 auto; 
   }
 
   #banner1{
     width: 600px;
     height: 160px;
+    min-width: 20%;
   }
   
   .banner {
-    width: 45%; /* Adjust width as needed */
+    min-width: 20%; /* Adjust width as needed */
     height: 200px; /* Adjust height as needed */
     border: 1px solid #ddd;
   }
