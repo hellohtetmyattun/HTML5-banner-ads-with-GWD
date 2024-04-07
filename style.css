@@ -36,9 +36,13 @@ img {
   max-width: 100%; /* Responsive image handling */
 }
 
-.intro {
+  p {
   text-align: center;
   padding: 20px;
+  }
+  
+
+.intro {
   font-size: 14px;
   background-color: #f0f0f0; /* Light grey background */
   border: 1px solid #ddd; /* Add a thin border */
