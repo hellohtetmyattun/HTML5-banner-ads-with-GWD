@@ -96,6 +96,18 @@ a {
   text-decoration: none; /* Remove underline from link */
 }
 
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column; /* Stack elements vertically on mobile */
+    align-items: center; /* Center elements horizontally */
+    text-align: center; /* Center text content */
+    padding: 10px; /* Adjust padding if needed */
+  }
+  
+  header img {
+    margin-bottom: 10px; /* Add spacing between logo and text */
+  }
+
 a:hover {
   text-decoration: underline; /* Underline on hover */
 }
