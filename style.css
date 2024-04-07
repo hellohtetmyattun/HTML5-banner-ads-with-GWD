@@ -96,6 +96,10 @@ a {
   text-decoration: none; /* Remove underline from link */
 }
 
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column; /* Stack elements vertically on mobile */
@@ -107,7 +111,4 @@ a {
   header img {
     margin-bottom: 10px; /* Add spacing between logo and text */
   }
-
-a:hover {
-  text-decoration: underline; /* Underline on hover */
 }
